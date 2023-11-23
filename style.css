@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(177 177 177 / 55%);
+    font-family: "Concert One";
+}
+
+.container1{
+    box-sizing:border-box ;
+    width:500px ;
+    height: 450px;
+    background-color:white;
+    margin:100px auto;
+    
+    padding: 25px 0;
+    box-shadow: 0 0 15px black ;
+    border-radius: 10px;
+}
+.profme{
+    width:150px;
+    height: 120px;
+    display: block;
+    margin:auto;
+    border:2px dotted gray;
+    border-radius:50%;
+}
+.socp{
+    text-align: center;
+    margin: 5px auto 27px auto;
+}
+.scop1{
+    width: 100px;
+    margin: 20px auto;
+    font-size: 20px;
+    border-bottom: 5px solid lightgray;
+    text-align: center;
+}
+.socilas{
+    height: 60px;
+    background-color: silver;
+    text-align: center;
+}
+i{
+    min-height: 60px;
+    min-width: 40px;
+    margin-left: 10px;
+}
+
+
+.socilas i:hover{
+    background-color: black;
+    color: blanchedalmond;
+
+}
+.socilas i:active{
+    background-color: yellow;
+    color: blue;
+}
+
+.socilas i :hover::after{
+    width: 100%;
+}
+
